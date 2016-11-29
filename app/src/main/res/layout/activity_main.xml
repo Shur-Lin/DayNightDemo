@@ -42,7 +42,7 @@
             android:layout_weight="1"
             android:background="@color/bg_btn"
             android:gravity="center"
-            android:text="夜间模式"/>
+            android:text="日间模式"/>
 
         <Button
             android:id="@+id/btn_night"
@@ -52,7 +52,7 @@
             android:layout_weight="1"
             android:background="@color/bg_btn"
             android:gravity="center"
-            android:text="日间模式"/>
+            android:text="夜间模式"/>
     </LinearLayout>
 
 </RelativeLayout>
