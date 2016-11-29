@@ -17,16 +17,16 @@
 4.代码部分,想要切换的地方调用：
 
 
-  'getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);//切换夜间模式 
+ `getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);//切换夜间模式 
   recreate();//重新启动当前activity'
   
 
   'getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_NO);//切换日间模
-  recreate();//重新启动当前activity'
-  
+  recreate();//重新启动当前activit
+  `
 
 5.setLocalNightMode的值的说明
-  'MODE_NIGHT_NO： 使用亮色(light)主题，不使用夜间模式
+ `MODE_NIGHT_NO： 使用亮色(light)主题，不使用夜间模式
   MODE_NIGHT_YES：使用暗色(dark)主题，使用夜间模式
   MODE_NIGHT_AUTO：根据当前时间自动切换 亮色(light)/暗色(dark)主题
-  MODE_NIGHT_FOLLOW_SYSTEM(默认选项)：设置为跟随系统，通常为MODE_NIGHT_NO *'
+  MODE_NIGHT_FOLLOW_SYSTEM(默认选项)：设置为跟随系统，通常为MODE_NIGHT_NO `
