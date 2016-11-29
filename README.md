@@ -17,14 +17,12 @@
 4.代码部分,想要切换的地方调用：
 
 
- `getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);//切换夜间模式 
+ `getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);//切换夜间模式
+  recreate();//重新启动当前activity
+  getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_NO);//切换日间
+  recreate();//重新启动当前actvty`
+  
 
-  recreate();//重新启动当前activit
- `
- `getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_NO);//切换日间模
-
-  recreate();//重新启动当前activit
- `
 5.setLocalNightMode的值的说明
 
 
